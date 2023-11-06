@@ -1,9 +1,17 @@
 import { Link, useLocation } from 'react-router-dom';
+
+
+const styles = {
+    navBorder: {
+        borderBottom: 'solid 5px blueviolet',
+    }
+}
+
 function Navigation() {
     const currentPage = useLocation().pathname;
     
     return (
-        <ul className="nav nav-tabs">
+        <ul style={styles.navBorder} className="nav nav-pills">
             <li className="nav-item">
                 <Link
                 to="/"

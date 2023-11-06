@@ -1,7 +1,10 @@
+import '../styles/Resume.css'
+
 export default function Resume() {
     return (
         <div>
-            <p>This is my resume page!</p>
+            <h3><a  href="https://www.linkedin.com/in/bryan-reyes-78657323a/">LinkedIn</a></h3>
+            <p className='resume-letter'>Currently residing in Lawrence, Kansas but locally grown as a Kansas City native. I have gained experienced & many diverse skills. Not from just jobs but also from amongst the many opportunities that life has to offer. I received some of my very first experiences of working with my hands at a young age from my father showing me basic mechanics and construction. To receiving one of my very first paychecks working on a farm with an organization called <a href='https://boysgrow.com/on-the-farm/'>BoysGrow</a>, a nonprofit organization that teaches young men in Kansas City a deep broadening view on what it's like to labor farming, under the sun. Learing essential business skills & how to communicate & prosper in a professional world and even learning how to create, manufacture, market and distribute a product to the community all before the age of 15. Here, I gained one of my very first passions for cooking and taking pride in feeding people. In my country Nicaragua's culture a lot of the everyday and big family moments is very centered around food. Since I could begin work my work places have always been in a kitchen, in a line under immense pressure. The height of my culinary life was working as a sous chef for my brother in law serving hundreds of people meals from scratch. I decided towards a simpler work path as kitchen schedules and hours become very fluid, I began working in a warehouse. Here I gained my first experience in databasing, inventory control, management, customer service, heavy machinery and distribution at an industrial level. Now I've taken on the new challenge of learning javascript to become a web developer & move up in an advancing and technological world where the skill is becoming more essential and useful everyday. I am happy and proud of all the adversity i've faced throughout this journey & I can't wait to get into it.</p>
         </div>
     );
 }
